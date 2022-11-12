@@ -1,0 +1,19 @@
+.FirstDndItem {
+	display: flex;
+	border: 1px solid green;
+	align-items: flex-start;
+	padding: 5px;
+	gap: 10px;
+	background-color: #fff;
+
+	> div {
+		width: 50%;
+		text-align: left;
+        flex-shrink: 0;
+		&:nth-child(2) {
+			* {
+				margin-bottom: 15px;
+			}
+		}
+	}
+}

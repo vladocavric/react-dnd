@@ -1,0 +1,17 @@
+.FirstDndList {
+    text-align: center;
+    
+    &__List {
+        margin: auto;
+        border: 1px solid rgb(119, 138, 106);
+        max-width: 400px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
